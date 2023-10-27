@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFACVnKQVgM4GSJ7cy5QuDE2Ssmii-RRCAyQ&usqp=CAU);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: white;
+        width: 100%;
+        height: 80px;
+     
+    }
+    .d1{
+        display: flex;
+        padding-left: 140px;
+        font-size: 17px;
+        font-family: sans-serif;
+        letter-spacing: 1px;
+
+    }
+    .d2{
+        display: flex;
+        gap: 40px;
+        padding-right: 130px;
+
+    }
+    ul{
+        display: flex;
+        list-style-type: none;
+        gap: 30px;
+        font-family: sans-serif;
+        font-size: 14px;
+        padding-top: 7px;
+    }
+    ul li:hover{
+        background-color: white;
+        width: 60px;
+        height: 20px;
+        text-align: center;
+        color: rgb(71, 123, 175);
+        border-radius: 10px;
+
+    }
+    .a1{
+        color: white;
+        text-decoration: none;
+    }
+    button{
+        background: none;
+        border: 1px solid white;
+        width: 100px;
+        height: 30px;
+        border-radius: 3px;
+    }
+    .p1{
+        font-size: 50px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: white;
+        line-height: 60px;
+    }
+    .p2{
+        line-height: 22px;
+        color: rgb(217, 211, 211);
+        margin-top: 10px;
+    }
+    .a2{
+        color: rgb(179, 174, 174);
+        text-decoration: none;
+    }
+    .b1{
+        background: none;
+        width: 130px;
+        height: 35px;
+        border-radius: 20px;
+        background-color: rgb(25, 209, 35);
+    }
+    .a3{
+        color: white;
+        text-decoration: none;
+        font-size: 11px;
+    }
+    .d3{
+        line-height: 70px;
+        margin-left: 250px;
+        margin-top: 90px;
+    }
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .box{
+        background-color: white;
+        width: 250px;
+        height: 250px;
+        margin-right: 250px;
+        margin-top: 90px;
+        padding: 10px 10px 10px 10px;
+        text-align: center;
+        line-height: 40px;
+        box-shadow: rgba(9, 55, 92, 0.35) 0px 0px 30px 25px ;
+    }
+    .h1{
+        font-family: sans-serif;
+        font-size: 20px;
+    }
+    input{
+        height: 27px;
+        width: 185px;
+        background-color: rgb(219, 217, 217);
+        border: none;
+        padding-left: 20px;
+    }
+    select{
+        height: 30px;
+        width: 205px;
+        border: none;
+        background-color: rgb(219, 217, 217);
+        padding-left: 15px;
+        color: rgb(108, 108, 108);
+    }
+    .b2{
+        height: 30px;
+        width: 205px;
+        background-color: rgb(25, 73, 162);
+        border-radius: 20px;
+    }
+   .a4{
+    color: white;
+    text-decoration: none;
+   }
+   .material-symbols-outlined{
+    display: none;
+   }
+
+
+   @media(max-width:700px){
+    .d2 ul{
+        display: none;
+        background-color: rgb(46, 90, 135);
+        color: white;
+        position: absolute;
+        height: 180px;
+        left: 540px;
+        line-height: 35px;
+        top: 60px;
+        width: 150px;
+        text-align: center;
+
+    }
+  
+  
+    .material-symbols-outlined:hover+.d2 ul{
+        display: block;
+    }
+    .material-symbols-outlined{
+    display: block;
+    position: relative;
+    left: 280px;
+   }
+  
+   .container{
+    display: block;
+   }
+  .box{
+     margin-left: 210px;
+     margin-bottom: 100px;
+  }
+   }
+  .d3{
+  position: relative;
+  right: 50px;
+  }
+  
+</style>
+<header>
+    <div class="d1">
+        <p>Landing</p>
+    </div>
+    <span class="material-symbols-outlined">
+        menu
+        </span>
+    <div class="d2">
+       
+            <ul>
+                <li>Home</li>
+                <li>Features</li>
+                <li>Reviews</li>
+                <li>Pricing</li>
+                <li>FAQ</li>
+            </ul>
+            <button><a class="a1" target="_blank" href="">Get Started</a></button>
+    
+    </div>
+</header>
+<body>
+    <div class="container">
+        <div class="d3">
+    <p class="p1">Fly makes you <br> faster</p>
+    <p class="p2"> New free template by <a class="a2" href="https://uicookies.com/">uicookies.com</a>. For more <br> templates visit the site. Lorem ipsum dolar sit amet, <br> consectetur adipisicing elit.</p>
+    <button class="b1">
+        <a class="a3" target="_blank" href="">SEE PRICING</a>
+    </button>
+
+        </div>
+
+        <div class="box">
+            <h2 class="h1">Sign Up for Free</h2>
+            <input type="text" placeholder="Full name">
+            <input type="text" placeholder="Email">
+            <input type="text" placeholder="Email">
+            <select name="" id="">
+                <option value="">Type</option>
+            </select>
+            <button class="b2">
+                <a target="_blank" class="a4" href="">Register</a>
+            </button>
+
+        </div>
+    </div>
+</body>
+</html>
